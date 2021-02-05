@@ -1,8 +1,35 @@
 body{
-  background-image: url('background.jpg');
+  background-image: url('images/background.jpg');
   background-repeat: no-repeat;
   background-position: left - bottom;
   background-size:100% 100%;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: inherit;
+  text-align: center;
+}
+
+li{
+  float: left;
+  font-size: 20;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: white;
+  color: inherit;
 }
 
 h1{
@@ -47,20 +74,13 @@ tr:nth-child(odd){
 tr:nth-child(even){
   background-color: #DDEAF0;
 }
-.container{
-  padding: 5px;
-  text-align: center;
-  padding-top: 40px;
-  text-transform: capitalize;
-}
 
 .footer{
+  margin-top: 70px;
   padding: 5px;
   position: fixed;
-/*  left: 0;
-  bottom: 0; */
   width: 100%;
-  background-color: #DDEAF0;
+  background-color: #6BBE30;
   text-align: center;
   color: white;
 }
