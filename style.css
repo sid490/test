@@ -78,7 +78,7 @@ tr:nth-child(even){
 .footer{
   margin-top: 70px;
   padding: 5px;
-  position: fixed;
+  position: relative;
   width: 100%;
   background-color: #6BBE30;
   text-align: center;
